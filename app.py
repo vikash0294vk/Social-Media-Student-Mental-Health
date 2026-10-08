@@ -6,7 +6,7 @@ import streamlit as st
 st.set_page_config(page_title="Social Media & Student Mental Health", page_icon="🧠", layout="centered")
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-MD = os.path.join(BASE, "models")
+MD = os.path.join(BASE, "streamlit_deploy", "streamlit_deploy", "models")
 
 
 @st.cache_resource

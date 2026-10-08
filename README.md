@@ -17,9 +17,9 @@ The app and trained models are in `streamlit_deploy/streamlit_deploy/`.
 
 ## Deploy with Streamlit Community Cloud
 
-Connect this GitHub repository and set **Main file path** to
-`streamlit_deploy/streamlit_deploy/app.py`. Set the app's requirements file to `requirements.txt` in the repository
-root.
+Connect this GitHub repository and set **Main file path** to `app.py` in the repository root. The root app loads the
+trained models from `streamlit_deploy/streamlit_deploy/models/`. Set the app's requirements file to `requirements.txt`
+in the repository root.
 
 ## Project files
 
